@@ -13,6 +13,7 @@ with st.sidebar:
     st.header("Configuration")
     # Taking the API key as a password input keeps it secure and out of your source code!
     api_key = st.text_input("Enter your Gemini API Key:", type="password")
+    st.caption("🔒 Your API key is secure. It is never stored, saved, or visible to anyone else.")
     st.markdown("[Get a free API key here](https://aistudio.google.com/app/apikey)")
 
 # --- MAIN USER INTERFACE ---
